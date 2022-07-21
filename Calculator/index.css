@@ -1,0 +1,59 @@
+body{
+    background-image: url("cal.jpeg");
+    background-repeat: no-repeat;
+}
+.title{
+    border-radius: 2%;
+    border: 1px solid rgb(26, 200, 75);
+    
+    align-items: center;
+    width: 100%;
+    padding: 1% 1% 1% 1%;
+    background-image: linear-gradient(to bottom right,rgb(97, 94, 94),rgb(126, 119, 119),rgb(78, 78, 78));
+}
+td{
+    border: 1px solid rgb(77, 63, 182);   
+}
+div{
+    /* padding: 10% 10% 10% 60%;  */
+    float:right;
+      padding: 10% 10% 10% 80%;
+}
+.box{
+    width: 100%;
+    padding: 2%;
+    text-align: right;
+    border-color: rgb(240, 178, 7);
+    border-collapse: collapse;
+    border: 1px solid rgb(249, 8, 8);
+}
+.ac{
+    display:grid;
+    width: 100%;
+    height: 10%;
+    padding: 40% 1%;
+    text-align: center;
+}
+.but{
+    width:100%;
+    height:100%;    
+}
+h3{
+    float: left;
+    font-family:cursive;
+    font-size:150%;
+    font-variant: small-caps;
+    font-weight:lighter;
+    color: rgb(240, 9, 151);
+    margin-top: -30%;
+    margin-left: 20%;
+    padding-bottom: -40%;
+    
+}
+#history{
+    color: rgb(248, 165, 11);
+    font-size: 70%;
+}
+#output{
+    font-size: 120%;
+}
