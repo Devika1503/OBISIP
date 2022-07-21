@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="Stylesheet" href="index.css">
+    </head>
+    <body>
+       <div>
+         <!-- <h3>Calculator</h3> -->
+        <table align="right" class = "title">
+            <tr>
+                <td colspan="5"><input type="text" id="history" class="box"/>
+                <input type="text" id="output" class="box"/></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td ><input type = "button"  class="but" value="(" onclick="diaplay('(')"/></td>
+                <td><input type = "button" class="but" value=")" onclick="diaplay(')')"/></td>
+                <td><input type = "button" class="but" value="Ans" onclick="calculate()"/></td>
+                <td><input type = "button" class="but" value="DEL" onclick="del()"/></td>
+                <td rowspan="2" ><input class="ac" type = "button" value="  AC  " onclick="clearScreen()"/></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td><input type = "button"class="but" value="7" onclick="diaplay('7')"/></td>
+                <td><input type = "button" class="but" value="8" onclick="diaplay('8')"/></td>
+                <td><input type = "button" class="but" value="9" onclick="diaplay('9')"/></td>
+                <td><input type = "button" class="but" value="%" onclick="diaplay('%')"/></td>
+            </tr>
+            <tr>
+                <td><input type = "button" class="but" value="4" onclick="diaplay('4')"/></td>
+                <td><input type = "button" class="but" value="5" onclick="diaplay('5')"/></td>
+                <td><input type = "button" class="but" value="6" onclick="diaplay('6')"/></td>
+                <td><input type = "button" class="but" value="x" onclick="diaplay('*')"/></td>
+                <td><input type = "button" class="but" value="/" onclick="diaplay('/')"/></td>
+            </tr>
+            <tr>
+                <td><input type = "button" class="but"value="1" onclick="diaplay('1')"/></td>
+                <td><input type = "button" class="but"value="2" onclick="diaplay('2')"/></td>
+                <td><input type = "button" class="but"value="3" onclick="diaplay('3')"/></td>
+                <td><input type = "button" class="but"value="+" onclick="diaplay('+')"/></td>
+                <td><input type = "button" class="but"value="  -  " onclick="diaplay('-')"/></td>
+            </tr>
+            <tr>
+                <td><input type = "button" class="but"value="  .  " onclick="diaplay('.')"/></td>
+                <td><input type = "button" class="but"value="  0  " onclick="diaplay('0')"/></td>
+                <td><input type = "button" class="but"value="^" onclick="diaplay('**')"/></td>
+                <td colspan="2"><input type = "button" class="but"value="=" onclick="calculate()"/></td>
+            </tr>
+        </table>
+       </div>
+       <script type="text/javascript" src="/index.js"></script>
+    </body>
+    
+</html>
