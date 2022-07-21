@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To do webapp</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <h2 class="text-center">TO DO LIST</h2>
+        <div class="form-group">
+            <label >Title :</label>
+            <input type="text" class="form-control" id="title"  aria-describedby="emailHelp" placeholder="Add item to list">
+        <button   id="add" class="btn" onclick="add()">Add to list</button>        </div>
+
+        <div id="items" class="b box1">
+            <h1>PENDING TASKS</h1>
+            <hr>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Sl. No.</th>
+                    <th scope="col">Items</th>
+                    <th scope="col"></th> 
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                  <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td><button class="btn">complete</button></td> 
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="items" class="b box2">
+            <h1>COMPLETED TASKS</h1>
+            <hr>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Sl. No.</th>
+                    <th scope="col">Items</th>
+                    <th scope="col"></th> 
+                  </tr>
+                </thead>
+                <tbody id="tableBody2">
+                  <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td><button class="btn">Delete</button></td> 
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+     
+    </div>
+</body>
+</html>
