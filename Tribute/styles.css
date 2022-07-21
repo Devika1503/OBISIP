@@ -1,0 +1,47 @@
+img.blocktext {
+    width: 100%;
+    display: block;
+}
+.age{
+  text-align: center;
+}
+body{
+  font-family:sans-serif;
+  background-color: rgb(232, 242, 244);
+}
+h1{
+  text-align: center;
+}
+h4{
+  text-align:center;
+}
+.bio{
+  text-align:center;
+}
+.para{
+  width: 50%;
+  margin-left: 350px;
+  margin-right: 300px;
+  text-align:justify;
+}
+
+.acc{
+  text-align: center;
+}
+.acc2{
+  width: 50%;
+  margin-left: 350px;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgb(37, 9, 243);
+  border-width: 5px;
+  width: 6%;
+  margin: 100px auto;
+}
+.award{
+  width: 50%;
+  margin-left: 350px;
+  text-align:justify;
+}
